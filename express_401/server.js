@@ -8,7 +8,7 @@ const searchRouter = require("./routes/search");
 const { apiKey } = require("./middlewares/index");
 
 
-const port = process.env.PORT||3000;
+const port=process.env.PORT||8000;
 // console.log("=========>",port);
 app.use(express.static("public"));
 app.use(express.json());
